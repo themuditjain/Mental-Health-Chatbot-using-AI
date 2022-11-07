@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "Mental Health Chatbot",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501
+	}
+}

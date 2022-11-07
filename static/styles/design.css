@@ -1,0 +1,156 @@
+@import 'utilities.css';
+:root{
+    --primary:#3DCFD3;
+    --dark:#161616;
+    --pure:#FFFFFF;
+    --ternary:#898989;
+    --light:#F2F2F2;
+}
+*{
+    padding:0 ;
+    margin:0;
+    box-sizing:border-box;
+    -webkit-font-smotthing:antialiased;
+}
+header{
+    height: max-content;
+    background-color:var(--dark);
+}
+.container{
+    max-width: 1152px;
+    padding:0 15;
+    margin:0 auto;
+}
+header nav{
+    padding:2rem 1rem;
+}
+header nav .left a{
+    color:var(--pure);
+    text-decoration:none;
+    margin-right: 2rem;
+    transition: all .3s ease;
+}
+body{
+    font-family: 'Poppins',sans-serif;
+}
+header nav .branding{
+    margin-right: 3rem;
+}
+header nav .left a:hover{
+    color:var(--primary);
+}
+.hero .left img{
+    width: 400px;
+}
+.hero .right{
+    margin-top:-7rem;
+    color: var(--pure);
+}
+.hero .right h6{
+    font-size: 1.6rem;
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+}
+.hero .right h1{
+    font-size: 4rem;
+    font-weight: 100;
+    line-height:1.2;
+    margin-bottom: 2rem;
+}
+.hero .right h1 span{
+    color:var(--primary);
+}
+.hero .right p{
+    line-height: 5;
+    font-size:3rem;
+    margin-bottom: 2rem;
+}
+.hero{
+    padding:3rem 0;
+}
+section{
+    padding:6rem 0;
+}
+section .about .me-image{
+    height: 450px;
+
+}
+.about h1{
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    font-weight: 1000;
+} 
+.about h1 span{
+    color : var(--primary);
+}
+.about h3{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+section.about p{
+    font-family: 'Lato',sans-serif;
+    color: var(--ternary);
+    line-height: 2rem;
+    margin-bottom: 3rem;
+}
+.ime{
+    margin-left: 10rem;
+}
+section .about .social{
+    display: flex;
+}
+section .social a{
+    font-size: 1rem;
+    margin-right:1rem;
+    text-decoration: none;
+}
+.forms label,input, .forms p{
+    font-size: 3rem;
+}
+.forms input,textarea{
+    transition: all 0.3s ease;
+    border-radius: 2%;
+    background:silver;
+    backface-visibility: 50%;
+}
+.forms input:hover , textarea:hover{
+    background-color:var(--ternary); 
+} 
+.container_2{
+    max-width: 1152px;
+    padding:0 15px;
+    margin:0 auto;
+}
+.trans_cls{
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+}
+
+.trans_cls.active{
+    transform: translateY(0);
+    opacity: 1;
+    position: relative;
+    font-weight: bold;
+    color: var(--light);
+    text-align:center;
+}
+
+.trans_cls h1{
+    font-size: 5rem;
+}
+@media only screen and (max-width: 800px) {
+    .left .right{
+        padding: 1rem 1rem;
+        margin: 1rem 1rem;
+        text-align: center;
+    }
+    .branding,  .links , .after_btn{
+        margin: 2rem 2rem;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .trans_cls > h1{
+        font-size: 3.8rem;
+    }
+}

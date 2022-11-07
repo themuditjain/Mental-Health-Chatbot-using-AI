@@ -1,0 +1,362 @@
+{
+    "intents": [
+      {
+        "tag": "greetings",
+        "patterns": [
+          "hi",
+          "hello",
+          "Hello",
+          "hemluuu",
+          "Hemluuu",
+          "Hello how are you!!",
+          "heeeya",
+          "How you doing!!"
+        ],
+        "responses": [
+          "Hello<br> How are you?"
+        ]
+      },
+      {
+        "tag":"feel_good",
+        "patterns":[
+          "I am Fine",
+          "I am very happy",
+          "I am okay",
+          "I am Feeling wonderfull"
+        ],
+        "responses":[
+          "Nice.<br>Now tell me about your Sleep cycle .",
+          "Wonderfull<br>Now tell me about your Sleep cycle . ",
+          "Good<br>Now tell me about your Sleep cycle"
+        ]
+      },
+      {
+        "tag":"feel_bad",
+        "patterns":[
+          "Not feeling well",
+          "Not well",
+          "I am not feeling good",
+          "I am not fine",
+          "Feeling very down",
+          "Feeling distressed"
+        ],
+        "responses":[
+          "Sad to hear that<br>Are you over sleeping or are you sleeping less ?"
+        ]
+      },
+      {
+        "tag":"insomnia",
+        "patterns":[
+          "i am having less sleep",
+          "I cant sleep properly from past few weeks",
+          "Cant get proper sleep from many days",
+          "Not able to sleep peacefully",
+          "I am feeling like having insomnia"
+        ],
+        "responses":[
+          "I would suggest you to do yoga exercises like Uttanasana , Halasana , Shishuasana etc. as it could be insomnia<br>Tell me do you Smoke ????",
+          "This can be Insomnia try doing yoga exercises like Uttanasana , Halasana , Shishuasana etc.<br>Tell me do you Smoke ???? "
+        ]
+      },
+      {
+        "tag":"Hypersomnia",
+        "patterns":[
+          "i am oversleeping",
+          "I am sleepy all the day from few weeks",
+          "Sleeping all day ",
+          "Feeling dizzy all the day",
+          "Not feeling to get off bed"
+        ],
+        "responses":[
+          "I would suggest you to do yoga exercises like Marjariasana , Baddha Konasana , Ananda Balasana etc. as it could be Hypersomnia<br>Tell me do you Smoke ????",
+          "This could be Hypersomnia try doing yoga exercises like Marjariasana , Baddha Konasana , Ananda Balasana etc. <br>Tell me do you Smoke ????"
+        ]
+      },
+      {
+        "tag":"proper_sleep",
+        "patterns":[
+          "i am having proper sleep",
+          "having good sleep",
+          "having required amount of sleep",
+          "I am having adequate sleep"
+        ],
+        "responses":[
+          "Good<br>Tell me do you Smoke ????"
+        ]
+      },
+      {
+        "tag":"smoking_true",
+        "patterns":[
+          "yes i smoke sometimes",
+          "Yes i smoke a cigarette per day",
+          "Yes i smoke heavily",
+          "Yes i smoke 4 packets every day",
+          "I am addicted to smoking",
+          "Yes i some frequently"
+        ],
+        "responses":[
+          "You should stop smoking !! If you can't then try Nicotine free cigarettes first and then start doing some yoga to concentrate on work without Cigarette and leave smoking as soon as possible!!!!!<br>Please tell me how are your relations with your friends or family or parents ?"
+        ]
+      },
+      {
+        "tag":"smoking_false",
+        "patterns":[
+          "never smoke",
+          "No i dont smoke",
+          "No I do not smoke",
+          "I quit smoking long time ago"
+        ],
+        "responses":[
+          "Nice!!!<br>Please tell me how are your relations with your friends or family or parents ?"
+        ]
+      },
+      {
+        "tag":"relations_good",
+        "patterns":[
+          "I am having good relations with my friends",
+          "I am having good relations with my family",
+          "I am having good relations with my parents",
+          "Having good relations with all of them",
+          "good relations"
+        ],
+        "responses":[
+          "I hope all your relations remains good forever<br>Do you get anxious ?"
+        ]
+      },
+      {
+        "tag":"relations_bad",
+        "patterns":[
+          "I am not having good relations with my friends",
+          "I am not having good relations with my family",
+          "I am not having good relations with my parents",
+          "not having good relations with all of them",
+          "i am having bad realtions with all of them",
+          "bad relations"
+        ],
+        "responses":[
+          "I hope all your relations gets on track soon .<br>Do you get anxious ?"
+        ]
+      },
+      {
+        "tag":"anxious_true",
+        "patterns":[
+          "yes i get anxious sometimes",
+          "yes, i do get anxious sometimes",
+          "sometimes i get anxious",
+          "I cant concentrate on one thing",
+          "I suffer from anxiety attacks",
+          "yes I feel anxious many times",
+          "I sometimes feel short of breadth",
+          "Sometimes i feel muscle aches and tension",
+          "sometimes i feel like shaking or trembling",
+          "I sometimes get palpitations",
+          "Yes i sweat excessively sometimes",
+          "yes i feel short of breadth , excess sweat , palpitations , trembling , muscle aches and tension "
+        ],
+        "responses":[
+          "Its a thing to worry , try doing meditation when you feel anxious<br>What is your views about your eating patterns , do you over eat or are you having poor appetite or you are having good appetite???"
+        ]
+      },
+      {
+        "tag":"anxious_false",
+        "patterns":[
+          "no i dont get anxious",
+          "No symptoms of anixety",
+          "i never feel anxious",
+          "very rare moments i feel anxious"
+        ],
+        "responses":[
+          "Great!<br>What is your views about your eating patterns , do you over eat or are you having poor appetite or you are having good appetite???"
+        ]
+      },
+      {
+        "tag":"appetite_okay",
+        "patterns":[
+          "I am not having any issues with appetite",
+          "Having proper food",
+          "Not overeating or less appetite",
+          "I am having a proper appetite"
+        ],
+        "responses":[
+          "Thats great<br>Do you feel mentally tired??"
+        ]
+      },
+      {
+        "tag":"appetite_over",
+        "patterns":[
+          "i overeat a lot",
+          "I am doing overeating",
+          "Having very unhealthy food in large quatity",
+          "eating excessilvely",
+          "eating unecessarily"
+        ],
+        "responses":[
+          "Please visit a dietician<br>Do you feel mentally tired??"
+        ]
+      },
+      {
+        "tag":"appetite_less",
+        "patterns":[
+          "i am eating less",
+          "poor appetite",
+          "i'm not able to eat proprly at all",
+          "i have poor appetite",
+          "I am having less food than required",
+          "Not able to eat food",
+          "I am having less appetite"
+        ],
+        "responses":[
+          "Please visit a dietician<br>Do you feel mentally tired??"
+        ]
+      },
+      {
+        "tag":"mentally_tired_true",
+        "patterns":[
+          "Yes i am mentally exhausted",
+          "Yes i am mentally tired",
+          "Yes, i feel exhausted all the time",
+          "I am mentally tired",
+          "Yes, i feel exhausted sometimes"
+        ],
+        "responses":[
+          "Try getting proper sleep<br>Do you cry frequently?"
+        ]
+      },
+      {
+        "tag":"mentally_tired_false",
+        "patterns":[
+          "i am mentally fit",
+          "No i am mentally fit",
+          "No i am not mentally exhausted",
+          "No i am not mentally tired"
+        ],
+        "responses":[
+          "I hope it remains forever<br>Do you cry frequently?"
+        ]
+      },
+      {
+        "tag":"crying_true",
+        "patterns":[
+          "always crying",
+          "Yes i feel crying most of the time",
+          "yes i cry frequently"
+        ],
+        "responses":[
+          "Sad to hear<br>Do you like being alone?"
+        ]
+      },
+      {
+        "tag":"crying_false",
+        "patterns":[
+          "yes i cry sometimes",
+          "no i never cry",
+          "no i dont cry",
+          "i cry very rarely"
+        ],
+        "responses":[
+          "Its okay to cry sometimes !<br>Do you like being alone?"
+        ]
+      },
+      {
+        "tag":"loneliness_true",
+        "patterns":[
+          "introvert",
+          "yes i am an introvert",
+          "yes i am not comfortable with people around me",
+          "i dont enjoy company of others",
+          "i cant get away with others",
+          "I love being alone",
+          "I dont like others after me"
+        ],
+        "responses":[
+          "Its your choice but having good people around helps a lot in social life<br>Do you feel being hopeless frequently?"
+        ]
+      },
+      {
+        "tag":"loneliness_false",
+        "patterns":[
+          "i am a extrovert",
+          "i am comfortable with people around me",
+          "i enjoy company of others",
+          "i get away with others easily",
+          "I love being with others",
+          "I like roaming in groups"
+        ],
+        "responses":[
+          "Thats actually a good thing<br>Do you feel being hopeless frequently?"
+        ]
+      },
+      {
+        "tag":"hopeless_true",
+        "patterns":[
+          "Yes i am always hopeless",
+          "Yes i am fed up and always give up very early",
+          "yes i give up at very initial stage"
+        ],
+        "responses":[
+          "Have you ever tried to harm yourself or have you tried to do suicide ?"
+        ]
+      },
+      {
+        "tag":"hopeless_false",
+        "patterns":[
+          "not hopeless",
+          "i never feel hopeless",
+          "No i am always hopefull",
+          "I am having a positive approach towards life",
+          "I am very positive",
+          "I never give up easily"
+        ]
+      },
+      {
+        "tag":"harm_true",
+        "patterns":[
+          "I tried to cut my vein with a knife",
+          "I tried to jump from a building",
+          "I tied my self to a ceiling fan",
+          "i tried consuming poision",
+          "i tried to jump in front of train"
+        ],
+        "responses":[
+          "Please visit this website https://suicidepreventionlifeline.org/ <br><br>or call this number 9152987821"
+        ]
+      },
+      {
+        "tag":"harm_false",
+        "patterns":[
+          "no i never tried doind harm tio myself",
+          "no i never harmed myself intentionally",
+          "Never tried suicide"
+        ]
+      },
+      {
+        "tag":"joke",
+        "patterns":[
+          "tell me a joke",
+          "yes please tell me a joke",
+          "ya  sure tell a joke",
+          "i want to hear a joke"
+        ],
+        "responses":[
+          "What do you call an alligator in a vest?<br>Investigator",
+          "What do you call a sleeping bull?<br>Bulldozer",
+          "When is the best time to go to the dentist?<br>Tooth-hurty"
+        ]
+      },
+      {
+        "tag":"good bye",
+        "patterns":[
+          "See you later",
+          "Nice talking you, bye",
+          "It was nice talking you", 
+          "Good bye",
+          "Later",
+          "I will talk to you later"
+        ],
+        "responses":[
+          "Thank you, <br>Good Bye,<br> Hope to see you soon..."
+        ]
+      }
+    ]
+  }
+  
