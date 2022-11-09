@@ -12,4 +12,4 @@ Step 8: For testing purpose you can use the testing1.py file just after the trai
 The Chatbot is using the tokenization technique.
 The dataset used for the chatbot is the custom dataset created by ourself.
 
-*******************Thank you**************************
+*Thank you*
