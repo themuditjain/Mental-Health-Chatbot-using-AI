@@ -1,5 +1,7 @@
 # Mental-Health-Chatbot-using-AI
+
 To run the project 
+
 Step 1: First create the database and enter the name accordingly mentioned in the code itself.
 Step 2: Download all the required libraries as per used in the codes.
 Step 3: Run all the files accordingly from train.py to app.py.
